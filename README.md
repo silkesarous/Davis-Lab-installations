@@ -57,9 +57,9 @@ Reference: `https://github.com/MouseLand/cellpose#local-installation--2-minutes`
 - Install cellpose3.0 (recommended for personal computers):
     - With GUI (recommended): `python -m pip install cellpose[gui]==v3.1.1.2`
     - Without GUI: `python -m pip install cellpose`
-- Install cellposeSAM (recommended for workhorse computers):
+- Install cellposeSAM (newest version, recommended for workhorse computers):
     - With GUI (recommended): `python -m pip install cellpose[gui]`
-    - (Without GUI: `python -m pip install cellpose`
+    - Without GUI: `python -m pip install cellpose`
 - Update cellpose: `python -m pip install cellpose[gui] --upgrade`
 
 ### (OPTIONAL) Jupyter notebooks
