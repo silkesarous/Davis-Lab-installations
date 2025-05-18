@@ -54,9 +54,12 @@ Reference: `https://github.com/MouseLand/cellpose#local-installation--2-minutes`
 - Create a virtual environment for cellpose: `conda create --name cellpose-env python=3.10`
     - Tip: virtual environment will end up somewhere like this: `C:\Users\au704457\AppData\Local\miniforge3\envs\cellpose-env`
 - Activate the virtual environment: `conda activate cellpose-env`
-- Install cellpose:
-    - With GPU: `python -m pip install cellpose[gui]`
-    - Without GPU: `python -m pip install cellpose`
+- Install cellpose3.0 (recommended for personal computers):
+    - With GUI (recommended): `python -m pip install cellpose[gui]==v3.1.1.2`
+    - Without GUI: `python -m pip install cellpose`
+- Install cellposeSAM (recommended for workhorse computers):
+    - With GUI (recommended): `python -m pip install cellpose[gui]`
+    - (Without GUI: `python -m pip install cellpose`
 - Update cellpose: `python -m pip install cellpose[gui] --upgrade`
 
 ### (OPTIONAL) Jupyter notebooks
